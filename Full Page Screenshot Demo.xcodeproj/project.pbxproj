@@ -12,6 +12,7 @@
 		21154621255D7E6C003C45B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21154620255D7E6C003C45B6 /* ViewController.swift */; };
 		21154626255D7E6C003C45B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21154625255D7E6C003C45B6 /* Assets.xcassets */; };
 		21154629255D7E6C003C45B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21154627255D7E6C003C45B6 /* LaunchScreen.storyboard */; };
+		21154634255D8029003C45B6 /* ScreenshotServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21154633255D8029003C45B6 /* ScreenshotServiceDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		21154625255D7E6C003C45B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21154628255D7E6C003C45B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2115462A255D7E6C003C45B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21154633255D8029003C45B6 /* ScreenshotServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenshotServiceDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2115461C255D7E6C003C45B6 /* AppDelegate.swift */,
 				2115461E255D7E6C003C45B6 /* SceneDelegate.swift */,
+				21154633255D8029003C45B6 /* ScreenshotServiceDelegate.swift */,
 				21154620255D7E6C003C45B6 /* ViewController.swift */,
 				21154625255D7E6C003C45B6 /* Assets.xcassets */,
 				21154627255D7E6C003C45B6 /* LaunchScreen.storyboard */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21154634255D8029003C45B6 /* ScreenshotServiceDelegate.swift in Sources */,
 				21154621255D7E6C003C45B6 /* ViewController.swift in Sources */,
 				2115461D255D7E6C003C45B6 /* AppDelegate.swift in Sources */,
 				2115461F255D7E6C003C45B6 /* SceneDelegate.swift in Sources */,

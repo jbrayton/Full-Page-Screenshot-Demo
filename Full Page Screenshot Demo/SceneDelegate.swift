@@ -11,6 +11,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
     var viewController: ViewController?
+    var screenshotServiceDelegate: ScreenshotServiceDelegate?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
@@ -24,6 +25,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         self.viewController = rootViewController
         window.makeKeyAndVisible()
+        
+        let screenshotServiceDelegate = ScreenshotServiceDelegate(viewController: rootViewController)
+        windowScene.screenshotService?.delegate = screenshotServiceDelegate
+        self.screenshotServiceDelegate = screenshotServiceDelegate
     }
 
 }
